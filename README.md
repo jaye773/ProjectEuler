@@ -1,4 +1,4 @@
 ProjectEuler
 ============
 
-Trying to learn a new language by going through project euler problems.
+Trying to learn new languages by going through project euler problems.
