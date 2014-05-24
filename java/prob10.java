@@ -43,5 +43,4 @@ public class prob10
 		return prime;
 	}	
 
-
 }
