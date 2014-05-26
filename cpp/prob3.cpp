@@ -7,18 +7,16 @@ using namespace std;
 
 bool isPrime(unsigned long number)
 {
-	bool isPrime = true;
 	double sqrtNum = sqrt(number);
 	for(unsigned long i=2;i<sqrtNum;i++)
 	{
 		float mod = fmod(number, i);
 		if( mod == 0)
 		{
-			isPrime = false;
-			break;
+			return false;
 		}
 	}
-	return isPrime;
+	return true;
 }
 
 int main()

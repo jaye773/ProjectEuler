@@ -14,4 +14,4 @@ prob4: prob4.cpp
 	g++ prob4.cpp -o prob4
 
 clean:
-	rm prob1 prob2 prob3
+	rm prob1 prob2 prob3 prob4
