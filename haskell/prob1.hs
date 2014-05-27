@@ -1,7 +1,3 @@
-import Data.List
+main = putStrLn ("Total: " ++ show prob1 )
 
-main = putStrLn (labelInteger "Total" total)
-
-labelInteger label number = label ++ ": " ++ show number
-
-total = sum (nub ([3,6..999] ++ [5,10..999]))
+prob1 = sum([x|x<-[1..999], x `mod` 3 == 0 || x `mod` 5==0])
